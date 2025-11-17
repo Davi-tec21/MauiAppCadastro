@@ -14,14 +14,12 @@
         MinimumDate="2025-01-01" />
 
         <Entry Placeholder="Número de participantes"
-               Keyboard="Numeric"
                Text="{Binding NumeroParticipantes}" />
 
         <Entry Placeholder="Local do evento"
                Text="{Binding Local}" />
 
         <Entry Placeholder="Custo por participante"
-               Keyboard="Numeric"
                Text="{Binding CustoPorParticipante}" />
 
         <Button Text="Cadastrar"
